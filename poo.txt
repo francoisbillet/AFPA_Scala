@@ -1,0 +1,30 @@
+POO :
+
+3 piliers: Encapsulation, Héritage et Polymorphisme.
+
+Classe: idée qu'on se fait d'un objet.
+On ne conduit pas d'auto. On conduit une instance d'une auto.
+
+Constructeur: méthode qui instancie une classe. 
+On peut l'utiliser pour initialiser mais pas forcément.
+
+
+scalac nom_fichier
+scala nom_classe
+
+Il faut compiler le fichier puis appeler la classe.
+
+Dans une classe on peut avoir des déclarations de variables ou des méthodes, rien d'autre.
+Il faut un main pour démarrer un programme, pour qu'une classe soit exécutable, lançable (point d'entrée).
+
+unit correspond à void en java, unsigned ?
+
+var constantes, val variables
+
+Possibilité de ne pas mettre le type d'une variable ou les ; -> inférence
+
+for (i <- 0 until tab.length)
+ou for (j <- 0 to tab.size - 1)
+
+Toujours verrouiller sa session quand on quitte son poste
+

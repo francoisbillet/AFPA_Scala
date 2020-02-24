@@ -1,0 +1,70 @@
+Paradigme: manière d'appréhender un problème
+
+SCALA :
+
+Langage qui date de 2001 (création) donc assez jeune.
+Moins verbeux, permet de développer plus vite tout en utilisant ce qui marche de Java.
+Permet de développer une petite appli rapidement.
+
+5 choses qu'il y a dans chaque langage :
+Opérateurs d'affectations , opérateurs de comparaison, 
+opérateurs mathématiques, instructons conditionnelles, instructions itératives
+
+POC: Proof of Concept
+
+Langage compilé en bytecode (JS interprété) et exécuté dans la JVM.
+JVM: portabilité, développés sur beaucoup d'environnements.
+
+combine POO et programmation fonctionnelle (multi-paradigme), langage de haut niveau.
+Types statiques, JVM et JS runtimes.
+Accès à plusieurs librairies.
+
+JDK (Java Development Kit) -> environnement de développement (outils pour produire du Bytecode), 
+JRE (Java Runtime Environment) -> environnement d'exécution, contient la JVM (Java Virtual Machine),
+JSR (Java Specification Requests) -> comment ça marche
+
+On peut faire du Scala en utilisant un IDE ou via l'invité de commandes.
+
+Concaténation de strings : "Hello, " ++ "Scala!"
+
+Appels de méthodes :
+
+"Hello, Scala!".size, 
+1.to(10) : suite d'entiers de 1 à 10,
+"Hello, Scala!".toUpperCase,
+-42.abs,
+
+Les opérateurs sont des méthodes avec des noms symboliques :
+3 + 2 == 3.+(2)
+La syntaxe infix permet de ne pas spécifier le point et les parenthèses.
+
+Cette syntaxe peut aussi être utilisée avec des méthodes régulières :
+1.to(10) == (1 to 10)
+
+Le compilateur Scala vérifie statiquement qu'on ne combine pas des expressions incompatibles.
+
+Les types: Int, Double, Boolean, String commencent toujours par une majuscule.
+
+Méthodes: 
+
+def square(x: Double) = x * x
+def area(radius: Double): Double = 3.14159 * square(radius)
+area(10)
+
+Paramètres de fonctions (nom et type)
+
+def sumOfSquares(x: Double, y: Double) = square(x) + square(y)
+
+def x = loop est OK
+mais val x = loop donne une boucle infinie
+
+Conditions :
+
+def abs(x: Double) = if (x >= 0) x else -x
+
+Des expressions booléennes b peuvent être composées de : true, false, !b, b && b, b || b.
+Opérateurs de comparaison comme en Java.
+
+&& et || n'ont pas toujours besoin de l'opérande de droite pour être évalués.
+
+Les méthodes récursives ont besoin d'un return
