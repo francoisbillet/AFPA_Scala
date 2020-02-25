@@ -28,3 +28,4 @@ ou for (j <- 0 to tab.size - 1)
 
 Toujours verrouiller sa session quand on quitte son poste
 
+Une exception se produit que lorsqu'on ne sait pas ce qui peut arriver !
